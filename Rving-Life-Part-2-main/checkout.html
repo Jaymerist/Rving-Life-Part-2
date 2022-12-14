@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Checkout</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@700;800&family=Noto+Sans&display=swap" rel="stylesheet">
+</head>
+<body class="container">
+    <header>
+        <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+        <nav>
+            <ul>
+                <li><a href="camping.html">CAMPING PASSES</a></li>
+                <li><a href="checkout.html">CHECKOUT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Checkout</h2>
+        <section class="shipping-box">
+            <h3>Shipping Address</h3>
+            <form action="input">
+                <div>
+                    <label for="fname">First Name <div class="red-txt"> (required)</div></label>
+                    <input id="fname" type="text"><br>
+                </div>
+                <div>
+                    <label for="lname">Last Name <div class="red-txt"> (required)</div></label>
+                    <input id="lname" type="text"><br>
+                </div>
+                <div>
+                    <label for="address">Address <div class="red-txt"> (required)</div></label>
+                    <input id="address" type="text"><br>
+                </div>
+                <div>
+                    <label for="province">Province / State <div class="red-txt"> (required)</div></label>
+                    <input id="province" type="text"><br>
+                </div>
+                <div>
+                    <label for="city">City <div class="red-txt"> (required)</div></label>
+                    <input id="city" type="text"><br>
+                </div>
+                <div>
+                    <label for="postal">Postal Code <div class="red-txt"> (required)</div></label>
+                    <input id="postal" type="text"><br>
+                </div>
+                <div>
+                    <label for="email">Email <div class="red-txt"> (required)</div></label>
+                    <input id="email" type="text"><br>
+                </div>
+                <div>
+                    <label for="phone">Telephone <div class="red-txt"> (required)</div></label>
+                    <input id="phone" type="text"><br>
+                </div>
+            </form>
+        </section>
+
+        <section class="billing-box">
+            <h3>Billing Information</h3>
+            <form action="input">
+                <div class="credit-txt">
+                    <label for="creditcard">Credit Card Number <div class="red-txt"> (required)</div></label>
+                    <input id="creditcard" type="text"><br>
+                </div>
+                <div>
+                    <label for="expiry">Expiry-Date <div class="red-txt"> (required)</div></label>
+                    <input id="expiry" type="text"><br>
+                </div>
+                <div>
+                    <label for="securitycode">Security Code <div class="red-txt"> (required)</div></label>
+                    <input id="securitycode" type="text"><br>
+                </div>
+            </form>
+        </section>
+    </main>

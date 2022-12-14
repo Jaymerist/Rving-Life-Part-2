@@ -1,0 +1,327 @@
+.container {
+	margin:0 auto;
+	width:960px;
+	font-size: 100%;
+	line-height: 1.5;
+}
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+    background-image: url(../img/body-bg.png);
+}
+
+header{
+	height: 100px;
+	background-color:white;
+	text-align: left;
+}
+
+header ul{
+	display: flex;
+	float: left;
+	margin-top: 35px;
+}
+
+header li{
+	font-size: 17px;
+    color: #f59444;
+    margin-left: 25px;
+}
+
+header li:hover{
+    border-bottom: 1px solid#f59444;
+}
+
+header img{
+	text-align: left;
+	display: flex;
+	margin: 20px 0 0 20px;
+	float: left;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.banner h1{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 800;
+    font-size: 70px;
+}
+
+p{
+    font-size: 18px;
+}
+
+footer{
+    text-align: center;
+    background-color: #3b4834;
+    padding-top: 40px;
+}
+
+footer h2{
+    font-size: 50px;
+    font-family: 'Heebo', sans-serif;
+    color: white;
+}
+
+footer div{
+    background-color: #6c7355;
+}
+
+footer ul{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0 250px 0 250px;
+    color: white;
+}
+
+footer li{
+    width: 180px;
+    margin-top: 15px;
+}
+
+footer div{
+    margin-top: 50px;
+    padding: 15px;
+    color: #3b4834;
+}
+
+footer div p{
+    font-size: 15px;
+}
+
+footer a:hover{
+    border-bottom: 1px solid white;
+}
+/* ----------------classes----------------*/
+
+.banner{
+    background-image: url(../img/banner-bg.jpg);
+    height: 450px;
+    display: flex;
+    color: white;
+}
+
+.banner-text{
+    background-color: #3b4834; 
+    margin: 75px 250px 75px 0;
+    padding: 25px 0 0 35px;
+    width: 400px;
+}
+
+.banner p{
+    font-size: 17px;
+    margin-right: 30px;
+}
+
+.button{
+    background-color: white;
+    color: #3b4834;
+    border-radius: 2px;
+    text-align: center;
+    width: 360px;
+    height: 40px;
+    margin-top: 20px;
+    padding: 15px 0 10px 0;
+}
+
+.button a{
+    font-size: 23px;
+}
+
+.button:hover{
+    background-color: #f59444;
+    color: white;
+}
+
+h2{
+    color: #6c7355;
+    font-size: 55px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+}
+
+.blog section{
+    border: 1px solid black;
+    margin-bottom: 35px;
+    background-color: white;
+}
+
+.text-img-flex{
+    display: flex;
+}
+
+h3{
+    padding: 15px 0 15px 0;
+    font-size: 25px;
+    font-family: 'Heebo', sans-serif;
+    background-color: #f59444;
+    color: white;
+}
+
+.blog h3, .shipping-box h3, .billing-box h3{
+    padding-left: 25px ;
+}
+
+.text-img-flex img{
+    margin: 25px;
+}
+
+.bold{
+    font-weight: 700;
+    margin-left: 30px;
+    margin-right: 5px;
+}
+
+.blog-footer ul{
+    font-style: italic;
+    background-color: lightgray;
+    height: 60px;
+    display: flex;
+    padding: 15px;
+}
+
+.blog-footer li{
+    margin-top: 18px;
+}
+
+.blog-footer img{
+    margin-left: 30px;
+}
+
+.right-p p{
+    margin: 25px 25px 0 0;
+}
+
+.left-p p{
+    margin: 25px 0 0 25px;
+}
+
+.camping-passes-banner{
+    background-image: url(../img/banner.jpeg);
+    height: 229px;
+    display: flex;
+    color: #3b4834;
+    margin-bottom: 40px;
+}
+
+.passes-banner-txt{
+    background-color: #ffffffbe; 
+    margin: 80px 80px 80px 25px;
+    padding: 0 0 0 25px;
+    width: 400px;
+}
+
+.passes-banner-txt h1{
+    font-size: 50px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 800;
+}
+
+.passes-ul li{
+    font-size: 17px;
+    line-height: px;
+}
+
+.passes-ul{
+    list-style: disc;
+    margin:30px 0 20px 50px ;
+}
+
+td{
+    padding: 6px 160px 0 6px;
+    font-size: 15px;
+    height: 30px;
+}
+
+table, td, th {
+    border: 1px solid lightgray;
+  }
+
+table{
+    margin: 30px 25px 30px 0;
+}
+
+.site-block{
+    width: 306px;
+    border: 1px solid black;
+    margin: 0 25px 25px 0;
+    background-color: white;
+    text-align: center;
+}
+
+.site-block-last{
+    width: 306px;
+    border: 1px solid black;
+    background-color: white;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.site-block-last h3, .site-block h3{
+    margin: 15px;
+}
+
+.row{
+    display: flex;
+    margin: 0;
+}
+
+.site-block-last p, .site-block p{
+    color: gray;
+    font-size: 15px;
+}
+
+.reserve-button {
+    background-color: #6c7355;
+    color: white !important;
+    padding: 5px 0 5px 0;
+    margin: 25px 100px 25px 100px;
+    border-radius: 5px;
+}
+
+.reserve-button:hover{
+    background-color: #3b4834;
+}
+
+.site-block h4, .site-block-last h4{
+    margin: 10px 27px 0 27px;
+}
+
+label{
+    display: flex;
+}
+
+.shipping-box, .billing-box{
+    border: 1px solid black;
+    width: 705px;
+    background-color: white;
+    padding-bottom: 20px ;
+    margin-bottom:30px ;
+}
+
+.shipping-box form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shipping-box input{
+    width:320px;
+    margin: 0 12px 0 12px;
+    height: 30px;
+    background-color: #efefef;
+    border: 1px solid #c4c4c4;
+    border-radius: 2px;
+}
+
+.shipping-box label{
+    margin: 20px 0 0 12px;
+    font-size: 14px;
+}
+
+.red-txt{
+    margin-left: 6px;
+    color: red;
+}
